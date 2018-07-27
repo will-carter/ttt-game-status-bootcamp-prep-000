@@ -36,7 +36,7 @@ WIN_COMBINATIONS = [
     position_9 = board[win_index_9]
     
     if position_1[0] == "X" && position_1[1] == "X" && position_1[2] == "X"
-      return win_combination
+      return position_1
       else false
     end
   end
