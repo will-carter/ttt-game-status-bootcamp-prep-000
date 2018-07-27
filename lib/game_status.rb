@@ -26,14 +26,14 @@ WIN_COMBINATIONS = [
     win_index_9 = WIN_COMBINATIONS[8]
     
     position_1 = board[win_index_1].to_s
-    position_2 = board[win_index_2]
-    position_3 = board[win_index_3]
-    position_4 = board[win_index_4]
-    position_5 = board[win_index_5]
-    position_6 = board[win_index_6]
-    position_7 = board[win_index_7]
-    position_8 = board[win_index_8]
-    position_9 = board[win_index_9]
+    position_2 = board[win_index_2].to_s
+    position_3 = board[win_index_3].to_s
+    position_4 = board[win_index_4].to_s
+    position_5 = board[win_index_5].to_s
+    position_6 = board[win_index_6].to_s
+    position_7 = board[win_index_7].to_s
+    position_8 = board[win_index_8].to_s
+    position_9 = board[win_index_9].to_s
     
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return win_combination
