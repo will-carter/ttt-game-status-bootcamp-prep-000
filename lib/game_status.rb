@@ -25,7 +25,7 @@ WIN_COMBINATIONS = [
     win_index_8 = WIN_COMBINATIONS[7]
     win_index_9 = WIN_COMBINATIONS[8]
     
-    position_1 = board[win_index_1]
+    position_1 = board[win_index_1].to_s
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
     position_4 = board[win_index_4]
